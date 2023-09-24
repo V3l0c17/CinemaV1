@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    background-image: url(https://t4.ftcdn.net/jpg/01/09/01/75/360_F_109017543_CYYwshbV6H7COx7eo11nfTzHJ5tuY3gb.jpg);
+    
+    
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #343434;
+  }
+  
+  .nav-links a {
+    color:black;
+  }
+  
+  /* LOGO */
+  .logo {
+    font-size: 32px;
+  }
+  
+  /* NAVBAR MENU */
+  .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+    color: black;
+  }
+  
+  .menu li:hover {
+    background-color: gray;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+  
+  .menu li {
+    padding: 5px 14px;
+  }
+  
+  .services {
+    position: relative; 
+  }
+  
+  .dropdown {
+    border: dotted 1px;
+    background-color: white;
+    padding: 1em 0;
+    position: absolute; 
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+  }
+  
+  .dropdown li + li {
+    margin-top: 10px;
+  }
+  
+  .dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+  }
+  
+  .dropdown li:hover {
+    background-color: gray;
+  }
+  #p2{
+    color: white;
+  }
+  .services:hover .dropdown {
+    display: block;
+  }
+  .a1{
+    margin-top: 10px;
+  }
+  #Box-Text{
+    margin-top: 2px;
+    margin-bottom: -1px;
+  }
+  .Box{
+    color: white;
+    word-spacing: 300px;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    padding-top: 7px;
+    height: 50px;
+    background-color: #D31A38;
+    
+  }
+ .Box a:hover{
+    background-color: gray;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    width: 100px;
+    padding: 10px;
+ }
+ .Box a.active{
+    background-color: #343434;
+ }
+ .Contact-box{
+    border-radius: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-top: 200px;
+    height: 550px;
+    padding: 50px 25px;
+    background-color: white;
+    width: 400px;
+ }
+ #User{
+    padding: 16px 32px;
+    background-color: transparent;
+ }
+ #User:hover{
+    transition: 0.5s ease;
+    background-color: #343434;
+ }
+ #email{
+    background-color: transparent;
+    color: white;
+    margin-top: 40px;
+    padding:16px 32px ; }
+ #email:hover{
+    transition: 0.5s ease;
+    background-color: #343434;
+ }
+ #text{
+    margin-top: 40px;
+    
+ }
+ #submit{
+    margin-top: 40px;
+    padding: 8px 120px;
+    opacity: 0.9;
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+ }
+ #submit:hover{
+    background-color: #343434;
+    transition: 0.5s ease;
+ }
